@@ -59,7 +59,7 @@ cp .env.example .env
 
 ```dotenv
 LI_AT=AQEDAW1FBvcD...your_li_at_cookie...
-JSESSIONID="ajax:7053036771267472969"
+JSESSIONID="ajax:123456789"
 API_KEY=my-secret-key
 ```
 
@@ -71,7 +71,7 @@ API_KEY=my-secret-key
 npm run dev
 ```
 
-Your API is now running at **`http://localhost:8000`**! 🎉
+Your API is now running at **`http://localhost:4321`**! 🎉
 
 ---
 
@@ -80,19 +80,19 @@ Your API is now running at **`http://localhost:8000`**! 🎉
 ### Option A: Interactive Web UI (Easiest)
 
 Open your browser and visit:
-👉 **`http://localhost:8000`**
+👉 **`http://localhost:4321`**
 
 Paste any LinkedIn profile URL and see the live JSON response immediately!
 
 ### Option B: Interactive API Reference
 
 Explore endpoints and try out requests in the interactive API documentation:
-👉 **`http://localhost:8000/docs`**
+👉 **`http://localhost:4321/docs`**
 
 ### Option C: cURL / Terminal
 
 ```bash
-curl -X POST "http://localhost:8000/api/v1/profile" \
+curl -X POST "http://localhost:4321/api/v1/profile" \
   -H "Content-Type: application/json" \
   -H "X-API-Key: my-secret-key" \
   -d '{"url": "https://www.linkedin.com/in/williamhgates"}'
@@ -111,7 +111,7 @@ The project is pre-configured with safe, sensible defaults so you only need to p
 | `API_KEY`    | _Optional_ | Secret key required in the `X-API-Key` header. If left empty, the API is open.              |
 | `REDIS_URL`  | _Optional_ | Redis connection string (e.g. `redis://localhost:6379`). If empty, uses an in-memory cache. |
 
-_(Built-in defaults such as server port `8000`, 20 requests/minute rate limits, and 24h cache TTL are managed in `src/config/constants.ts`)._
+_(Built-in defaults such as server port `4321`, 20 requests/minute rate limits, and 24h cache TTL are managed in `src/config/constants.ts`)._
 
 ---
 
@@ -119,7 +119,7 @@ _(Built-in defaults such as server port `8000`, 20 requests/minute rate limits, 
 
 ### 1. Fetch Profile
 
-**`POST /api/v1/profile`** or **`GET /api/v1/profile?url=...`**
+**`POST /api/v1/profile`**
 
 **Headers**:
 
