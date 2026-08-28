@@ -1,0 +1,280 @@
+{
+  "data": {
+    "*elements": ["urn:li:fsd_profile:ACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"]
+  },
+  "included": [
+    {
+      "$type": "com.linkedin.voyager.dash.identity.profile.Profile",
+      "entityUrn": "urn:li:fsd_profile:ACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "firstName": "FirstNameRedacted",
+      "lastName": "LastNameRedacted",
+      "headline": "Senior Backend Engineer at Acme",
+      "summary": "Backend engineer focused on distributed systems and payments infrastructure. Ten years building high-throughput services in Go and TypeScript.",
+      "geoLocationName": "Bengaluru",
+      "geoCountryName": "India",
+      "locationName": "Bengaluru, Karnataka, India",
+      "industryName": "Software Development",
+      "pronoun": null,
+      "followersCount": 1420,
+      "connectionsCount": 500,
+      "premium": true,
+      "influencer": false,
+      "openToWork": false,
+      "*profilePicture": "urn:li:fsd_profilePicture:1",
+      "*backgroundImage": "urn:li:fsd_backgroundImage:1"
+    },
+    {
+      "$type": "com.linkedin.voyager.dash.identity.profile.ProfilePicture",
+      "entityUrn": "urn:li:fsd_profilePicture:1",
+      "displayImageReference": {
+        "vectorImage": {
+          "rootUrl": "https://media.licdn.com/dms/image/v2/D4D03AQ/profile-displayphoto-shrink_",
+          "artifacts": [
+            {
+              "width": 100,
+              "height": 100,
+              "fileIdentifyingUrlPathSegment": "000_000/0/0000000000000?e=0000000000&v=beta&t=redacted"
+            },
+            {
+              "width": 200,
+              "height": 200,
+              "fileIdentifyingUrlPathSegment": "000_000/0/0000000000000?e=0000000000&v=beta&t=redacted"
+            },
+            {
+              "width": 800,
+              "height": 800,
+              "fileIdentifyingUrlPathSegment": "000_000/0/0000000000000?e=0000000000&v=beta&t=redacted"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "$type": "com.linkedin.voyager.dash.identity.profile.BackgroundImage",
+      "entityUrn": "urn:li:fsd_backgroundImage:1",
+      "backgroundImage": {
+        "vectorImage": {
+          "rootUrl": "https://media.licdn.com/dms/image/v2/D4D16AQ/profile-background_",
+          "artifacts": [
+            {
+              "width": 1584,
+              "height": 396,
+              "fileIdentifyingUrlPathSegment": "000_000/0/0000000000000?e=0000000000&v=beta&t=redacted"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "$type": "com.linkedin.voyager.dash.identity.profile.Position",
+      "entityUrn": "urn:li:fsd_position:1001",
+      "title": "Senior Backend Engineer",
+      "companyName": "Acme Corp",
+      "employmentType": "Full-time",
+      "locationName": "Bengaluru, India",
+      "description": "Owned the payments ingestion pipeline processing 2M events/day. Led the migration from a monolith to event-driven services.",
+      "dateRange": { "start": { "month": 3, "year": 2022 }, "end": null },
+      "*company": "urn:li:fsd_company:1"
+    },
+    {
+      "$type": "com.linkedin.voyager.dash.identity.profile.Position",
+      "entityUrn": "urn:li:fsd_position:1002",
+      "title": "Backend Engineer",
+      "companyName": "Beta Systems",
+      "employmentType": "Full-time",
+      "locationName": "Pune, India",
+      "description": "Built internal tooling for the data platform team.",
+      "dateRange": { "start": { "month": 6, "year": 2019 }, "end": { "month": 2, "year": 2022 } },
+      "*company": "urn:li:fsd_company:2"
+    },
+    {
+      "$type": "com.linkedin.voyager.dash.identity.profile.Position",
+      "entityUrn": "urn:li:fsd_position:1003",
+      "title": "Software Engineering Intern",
+      "companyName": "Gamma Labs",
+      "employmentType": "Internship",
+      "locationName": "Remote",
+      "description": null,
+      "dateRange": { "start": { "month": 5, "year": 2018 }, "end": { "month": 7, "year": 2018 } },
+      "*company": "urn:li:fsd_company:3"
+    },
+    {
+      "$type": "com.linkedin.voyager.dash.organization.Company",
+      "entityUrn": "urn:li:fsd_company:1",
+      "name": "Acme Corp",
+      "url": "https://www.linkedin.com/company/acme-corp",
+      "logo": {
+        "vectorImage": {
+          "rootUrl": "https://media.licdn.com/dms/image/v2/D560BAQ/company-logo_",
+          "artifacts": [
+            {
+              "width": 200,
+              "height": 200,
+              "fileIdentifyingUrlPathSegment": "000_000/0/0000000000000?e=0000000000&v=beta&t=redacted"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "$type": "com.linkedin.voyager.dash.organization.Company",
+      "entityUrn": "urn:li:fsd_company:2",
+      "name": "Beta Systems",
+      "url": "https://www.linkedin.com/company/beta-systems",
+      "logo": {
+        "vectorImage": {
+          "rootUrl": "https://media.licdn.com/dms/image/v2/D560BAR/company-logo_",
+          "artifacts": [
+            {
+              "width": 200,
+              "height": 200,
+              "fileIdentifyingUrlPathSegment": "000_000/0/0000000000000?e=0000000000&v=beta&t=redacted"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "$type": "com.linkedin.voyager.dash.organization.Company",
+      "entityUrn": "urn:li:fsd_company:3",
+      "name": "Gamma Labs",
+      "url": "https://www.linkedin.com/company/gamma-labs",
+      "logo": null
+    },
+    {
+      "$type": "com.linkedin.voyager.dash.identity.profile.Education",
+      "entityUrn": "urn:li:fsd_education:2001",
+      "degreeName": "B.Tech",
+      "fieldOfStudy": "Computer Science",
+      "grade": "8.4 CGPA",
+      "dateRange": {
+        "start": { "month": null, "year": 2015 },
+        "end": { "month": null, "year": 2019 }
+      },
+      "*school": "urn:li:fsd_school:1"
+    },
+    {
+      "$type": "com.linkedin.voyager.dash.identity.profile.Education",
+      "entityUrn": "urn:li:fsd_education:2002",
+      "degreeName": "Higher Secondary",
+      "fieldOfStudy": "Science",
+      "grade": null,
+      "dateRange": {
+        "start": { "month": null, "year": 2013 },
+        "end": { "month": null, "year": 2015 }
+      },
+      "*school": "urn:li:fsd_school:2"
+    },
+    {
+      "$type": "com.linkedin.voyager.dash.organization.School",
+      "entityUrn": "urn:li:fsd_school:1",
+      "name": "Indian Institute of Technology",
+      "logo": {
+        "vectorImage": {
+          "rootUrl": "https://media.licdn.com/dms/image/v2/D560CAS/school-logo_",
+          "artifacts": [
+            {
+              "width": 200,
+              "height": 200,
+              "fileIdentifyingUrlPathSegment": "000_000/0/0000000000000?e=0000000000&v=beta&t=redacted"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "$type": "com.linkedin.voyager.dash.organization.School",
+      "entityUrn": "urn:li:fsd_school:2",
+      "name": "St. Xavier's Higher Secondary School",
+      "logo": null
+    },
+    {
+      "$type": "com.linkedin.voyager.dash.identity.profile.Skill",
+      "entityUrn": "urn:li:fsd_skill:1",
+      "name": "TypeScript",
+      "endorsementCount": 27
+    },
+    {
+      "$type": "com.linkedin.voyager.dash.identity.profile.Skill",
+      "entityUrn": "urn:li:fsd_skill:2",
+      "name": "Node.js",
+      "endorsementCount": 33
+    },
+    {
+      "$type": "com.linkedin.voyager.dash.identity.profile.Skill",
+      "entityUrn": "urn:li:fsd_skill:3",
+      "name": "Distributed Systems",
+      "endorsementCount": 12
+    },
+    {
+      "$type": "com.linkedin.voyager.dash.identity.profile.Skill",
+      "entityUrn": "urn:li:fsd_skill:4",
+      "name": "PostgreSQL",
+      "endorsementCount": 19
+    },
+    {
+      "$type": "com.linkedin.voyager.dash.identity.profile.Certification",
+      "entityUrn": "urn:li:fsd_certification:3001",
+      "name": "AWS Certified Solutions Architect – Associate",
+      "authority": "Amazon Web Services",
+      "licenseNumber": "ABC123XYZ",
+      "url": "https://www.credly.com/badges/example",
+      "dateRange": { "start": { "month": 6, "year": 2024 }, "end": null }
+    },
+    {
+      "$type": "com.linkedin.voyager.dash.identity.profile.Certification",
+      "entityUrn": "urn:li:fsd_certification:3002",
+      "name": "Certified Kubernetes Administrator",
+      "authority": "The Linux Foundation",
+      "licenseNumber": null,
+      "url": null,
+      "dateRange": { "start": { "month": 1, "year": 2023 }, "end": { "month": 1, "year": 2026 } }
+    },
+    {
+      "$type": "com.linkedin.voyager.dash.identity.profile.Language",
+      "entityUrn": "urn:li:fsd_language:1",
+      "name": "English",
+      "proficiency": "Native or bilingual proficiency"
+    },
+    {
+      "$type": "com.linkedin.voyager.dash.identity.profile.Language",
+      "entityUrn": "urn:li:fsd_language:2",
+      "name": "Hindi",
+      "proficiency": "Full professional proficiency"
+    },
+    {
+      "$type": "com.linkedin.voyager.dash.identity.profile.VolunteerExperience",
+      "entityUrn": "urn:li:fsd_volunteerExperience:4001",
+      "role": "Mentor",
+      "companyName": "Code for Good",
+      "cause": "Education",
+      "description": "Mentored first-generation CS students on interview preparation.",
+      "dateRange": { "start": { "month": 1, "year": 2021 }, "end": null }
+    },
+    {
+      "$type": "com.linkedin.voyager.dash.identity.profile.Honor",
+      "entityUrn": "urn:li:fsd_honor:5001",
+      "title": "Hackathon Winner",
+      "issuer": "Acme Corp",
+      "description": "First place, internal innovation hackathon.",
+      "issueDate": { "month": 11, "year": 2023 }
+    },
+    {
+      "$type": "com.linkedin.voyager.dash.identity.profile.Publication",
+      "entityUrn": "urn:li:fsd_publication:6001",
+      "name": "Scaling Event-Driven Systems at Acme",
+      "publisher": "Acme Engineering Blog",
+      "description": "A write-up of the payments pipeline migration.",
+      "url": "https://engineering.example.com/scaling-events",
+      "date": { "month": 9, "year": 2023 }
+    },
+    {
+      "$type": "com.linkedin.voyager.dash.identity.profile.Project",
+      "entityUrn": "urn:li:fsd_project:7001",
+      "title": "Open-source rate limiter",
+      "description": "A token-bucket rate limiter library for Node.js with pluggable backends.",
+      "url": "https://github.com/example/rate-limiter",
+      "dateRange": { "start": { "month": 2, "year": 2022 }, "end": { "month": 8, "year": 2022 } }
+    }
+  ]
+}

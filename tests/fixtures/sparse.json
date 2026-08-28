@@ -1,0 +1,25 @@
+{
+  "data": {
+    "*elements": ["urn:li:fsd_profile:ACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"]
+  },
+  "included": [
+    {
+      "$type": "com.linkedin.voyager.dash.identity.profile.Profile",
+      "entityUrn": "urn:li:fsd_profile:ACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "firstName": "FirstNameRedacted",
+      "lastName": "LastNameRedacted",
+      "headline": "Looking for opportunities",
+      "summary": null,
+      "geoLocationName": null,
+      "geoCountryName": null,
+      "locationName": null,
+      "industryName": null,
+      "pronoun": null,
+      "followersCount": 3,
+      "connectionsCount": 12,
+      "premium": false,
+      "influencer": false,
+      "openToWork": true
+    }
+  ]
+}

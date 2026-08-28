@@ -1,0 +1,258 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`dense fixture > matches the full parsed shape 1`] = `
+{
+  "basics": {
+    "connectionCount": 500,
+    "firstName": "FirstNameRedacted",
+    "followerCount": 1420,
+    "fullName": "FirstNameRedacted LastNameRedacted",
+    "headline": "Senior Backend Engineer at Acme",
+    "industry": "Software Development",
+    "isInfluencer": false,
+    "isOpenToWork": false,
+    "isPremium": true,
+    "lastName": "LastNameRedacted",
+    "location": {
+      "city": "Bengaluru",
+      "country": "India",
+      "full": "Bengaluru, Karnataka, India",
+    },
+    "pronouns": null,
+    "summary": "Backend engineer focused on distributed systems and payments infrastructure. Ten years building high-throughput services in Go and TypeScript.",
+  },
+  "certifications": [
+    {
+      "authority": "Amazon Web Services",
+      "endDate": null,
+      "licenseNumber": "ABC123XYZ",
+      "name": "AWS Certified Solutions Architect – Associate",
+      "startDate": {
+        "month": 6,
+        "year": 2024,
+      },
+      "url": "https://www.credly.com/badges/example",
+    },
+    {
+      "authority": "The Linux Foundation",
+      "endDate": {
+        "month": 1,
+        "year": 2026,
+      },
+      "licenseNumber": null,
+      "name": "Certified Kubernetes Administrator",
+      "startDate": {
+        "month": 1,
+        "year": 2023,
+      },
+      "url": null,
+    },
+  ],
+  "education": [
+    {
+      "degreeName": "B.Tech",
+      "endDate": {
+        "month": null,
+        "year": 2019,
+      },
+      "fieldOfStudy": "Computer Science",
+      "grade": "8.4 CGPA",
+      "schoolLogoUrl": "https://media.licdn.com/dms/image/v2/D560CAS/school-logo_000_000/0/0000000000000?e=0000000000&v=beta&t=redacted",
+      "schoolName": "Indian Institute of Technology",
+      "startDate": {
+        "month": null,
+        "year": 2015,
+      },
+    },
+    {
+      "degreeName": "Higher Secondary",
+      "endDate": {
+        "month": null,
+        "year": 2015,
+      },
+      "fieldOfStudy": "Science",
+      "grade": null,
+      "schoolLogoUrl": null,
+      "schoolName": "St. Xavier's Higher Secondary School",
+      "startDate": {
+        "month": null,
+        "year": 2013,
+      },
+    },
+  ],
+  "experience": [
+    {
+      "companyLinkedinUrl": "https://www.linkedin.com/company/acme-corp",
+      "companyLogoUrl": "https://media.licdn.com/dms/image/v2/D560BAQ/company-logo_000_000/0/0000000000000?e=0000000000&v=beta&t=redacted",
+      "companyName": "Acme Corp",
+      "companyUrn": "urn:li:fsd_company:1",
+      "description": "Owned the payments ingestion pipeline processing 2M events/day. Led the migration from a monolith to event-driven services.",
+      "durationMonths": 53,
+      "employmentType": "Full-time",
+      "endDate": null,
+      "isCurrent": true,
+      "location": "Bengaluru, India",
+      "startDate": {
+        "month": 3,
+        "year": 2022,
+      },
+      "title": "Senior Backend Engineer",
+    },
+    {
+      "companyLinkedinUrl": "https://www.linkedin.com/company/beta-systems",
+      "companyLogoUrl": "https://media.licdn.com/dms/image/v2/D560BAR/company-logo_000_000/0/0000000000000?e=0000000000&v=beta&t=redacted",
+      "companyName": "Beta Systems",
+      "companyUrn": "urn:li:fsd_company:2",
+      "description": "Built internal tooling for the data platform team.",
+      "durationMonths": 32,
+      "employmentType": "Full-time",
+      "endDate": {
+        "month": 2,
+        "year": 2022,
+      },
+      "isCurrent": false,
+      "location": "Pune, India",
+      "startDate": {
+        "month": 6,
+        "year": 2019,
+      },
+      "title": "Backend Engineer",
+    },
+    {
+      "companyLinkedinUrl": "https://www.linkedin.com/company/gamma-labs",
+      "companyLogoUrl": null,
+      "companyName": "Gamma Labs",
+      "companyUrn": "urn:li:fsd_company:3",
+      "description": null,
+      "durationMonths": 2,
+      "employmentType": "Internship",
+      "endDate": {
+        "month": 7,
+        "year": 2018,
+      },
+      "isCurrent": false,
+      "location": "Remote",
+      "startDate": {
+        "month": 5,
+        "year": 2018,
+      },
+      "title": "Software Engineering Intern",
+    },
+  ],
+  "honors": [
+    {
+      "description": "First place, internal innovation hackathon.",
+      "issueDate": {
+        "month": 11,
+        "year": 2023,
+      },
+      "issuer": "Acme Corp",
+      "title": "Hackathon Winner",
+    },
+  ],
+  "images": {
+    "backgroundImage": {
+      "height": 396,
+      "url": "https://media.licdn.com/dms/image/v2/D4D16AQ/profile-background_000_000/0/0000000000000?e=0000000000&v=beta&t=redacted",
+      "variants": [
+        {
+          "height": 396,
+          "url": "https://media.licdn.com/dms/image/v2/D4D16AQ/profile-background_000_000/0/0000000000000?e=0000000000&v=beta&t=redacted",
+          "width": 1584,
+        },
+      ],
+      "width": 1584,
+    },
+    "profilePicture": {
+      "height": 800,
+      "url": "https://media.licdn.com/dms/image/v2/D4D03AQ/profile-displayphoto-shrink_000_000/0/0000000000000?e=0000000000&v=beta&t=redacted",
+      "variants": [
+        {
+          "height": 800,
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQ/profile-displayphoto-shrink_000_000/0/0000000000000?e=0000000000&v=beta&t=redacted",
+          "width": 800,
+        },
+        {
+          "height": 200,
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQ/profile-displayphoto-shrink_000_000/0/0000000000000?e=0000000000&v=beta&t=redacted",
+          "width": 200,
+        },
+        {
+          "height": 100,
+          "url": "https://media.licdn.com/dms/image/v2/D4D03AQ/profile-displayphoto-shrink_000_000/0/0000000000000?e=0000000000&v=beta&t=redacted",
+          "width": 100,
+        },
+      ],
+      "width": 800,
+    },
+  },
+  "languages": [
+    {
+      "name": "English",
+      "proficiency": "Native or bilingual proficiency",
+    },
+    {
+      "name": "Hindi",
+      "proficiency": "Full professional proficiency",
+    },
+  ],
+  "projects": [
+    {
+      "description": "A token-bucket rate limiter library for Node.js with pluggable backends.",
+      "endDate": {
+        "month": 8,
+        "year": 2022,
+      },
+      "startDate": {
+        "month": 2,
+        "year": 2022,
+      },
+      "title": "Open-source rate limiter",
+      "url": "https://github.com/example/rate-limiter",
+    },
+  ],
+  "publications": [
+    {
+      "date": {
+        "month": 9,
+        "year": 2023,
+      },
+      "description": "A write-up of the payments pipeline migration.",
+      "publisher": "Acme Engineering Blog",
+      "title": "Scaling Event-Driven Systems at Acme",
+      "url": "https://engineering.example.com/scaling-events",
+    },
+  ],
+  "skills": [
+    {
+      "endorsementCount": 27,
+      "name": "TypeScript",
+    },
+    {
+      "endorsementCount": 33,
+      "name": "Node.js",
+    },
+    {
+      "endorsementCount": 12,
+      "name": "Distributed Systems",
+    },
+    {
+      "endorsementCount": 19,
+      "name": "PostgreSQL",
+    },
+  ],
+  "volunteer": [
+    {
+      "cause": "Education",
+      "description": "Mentored first-generation CS students on interview preparation.",
+      "endDate": null,
+      "organizationName": "Code for Good",
+      "role": "Mentor",
+      "startDate": {
+        "month": 1,
+        "year": 2021,
+      },
+    },
+  ],
+}
+`;

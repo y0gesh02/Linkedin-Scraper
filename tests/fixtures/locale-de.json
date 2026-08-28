@@ -1,0 +1,90 @@
+{
+  "data": {
+    "*elements": ["urn:li:fsd_profile:ACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"]
+  },
+  "included": [
+    {
+      "$type": "com.linkedin.voyager.dash.identity.profile.Profile",
+      "entityUrn": "urn:li:fsd_profile:ACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "firstName": "FirstNameRedacted",
+      "lastName": "LastNameRedacted",
+      "headline": "Senior Softwareentwicklerin bei Beispiel GmbH",
+      "summary": "Softwareentwicklerin mit Schwerpunkt auf verteilten Systemen und Zahlungsverkehr.",
+      "geoLocationName": "München",
+      "geoCountryName": "Deutschland",
+      "locationName": "München, Bayern, Deutschland",
+      "industryName": "Softwareentwicklung",
+      "pronoun": null,
+      "followersCount": 812,
+      "connectionsCount": 500,
+      "premium": false,
+      "influencer": false,
+      "openToWork": false,
+      "*profilePicture": "urn:li:fsd_profilePicture:1"
+    },
+    {
+      "$type": "com.linkedin.voyager.dash.identity.profile.ProfilePicture",
+      "entityUrn": "urn:li:fsd_profilePicture:1",
+      "displayImageReference": {
+        "vectorImage": {
+          "rootUrl": "https://media.licdn.com/dms/image/v2/D4D03AT/profile-displayphoto-shrink_",
+          "artifacts": [
+            {
+              "width": 400,
+              "height": 400,
+              "fileIdentifyingUrlPathSegment": "000_000/0/0000000000000?e=0000000000&v=beta&t=redacted"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "$type": "com.linkedin.voyager.dash.identity.profile.Position",
+      "entityUrn": "urn:li:fsd_position:9001",
+      "title": "Senior Softwareentwicklerin",
+      "companyName": "Beispiel GmbH",
+      "employmentType": "Vollzeit",
+      "locationName": "München, Deutschland",
+      "description": "Verantwortlich für die Zahlungsabwicklung-Pipeline.",
+      "dateRange": { "start": { "month": 4, "year": 2021 }, "end": null },
+      "*company": "urn:li:fsd_company:9"
+    },
+    {
+      "$type": "com.linkedin.voyager.dash.organization.Company",
+      "entityUrn": "urn:li:fsd_company:9",
+      "name": "Beispiel GmbH",
+      "url": "https://www.linkedin.com/company/beispiel-gmbh",
+      "logo": null
+    },
+    {
+      "$type": "com.linkedin.voyager.dash.identity.profile.Education",
+      "entityUrn": "urn:li:fsd_education:9101",
+      "degreeName": "M.Sc.",
+      "fieldOfStudy": "Informatik",
+      "grade": null,
+      "dateRange": {
+        "start": { "month": null, "year": 2016 },
+        "end": { "month": null, "year": 2018 }
+      },
+      "*school": "urn:li:fsd_school:9"
+    },
+    {
+      "$type": "com.linkedin.voyager.dash.organization.School",
+      "entityUrn": "urn:li:fsd_school:9",
+      "name": "Technische Universität München",
+      "logo": null
+    },
+    {
+      "$type": "com.linkedin.voyager.dash.identity.profile.Language",
+      "entityUrn": "urn:li:fsd_language:9",
+      "name": "Deutsch",
+      "proficiency": "Muttersprache"
+    },
+    {
+      "$type": "com.linkedin.voyager.dash.identity.profile.Language",
+      "entityUrn": "urn:li:fsd_language:10",
+      "name": "Englisch",
+      "proficiency": "Verhandlungssicher"
+    }
+  ]
+}
