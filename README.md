@@ -95,7 +95,7 @@ Explore endpoints and try out requests in the interactive API documentation:
 curl -X POST "http://localhost:4321/api/v1/profile" \
   -H "Content-Type: application/json" \
   -H "X-API-Key: my-secret-key" \
-  -d '{"url": "https://www.linkedin.com/in/williamhgates"}'
+  -d '{"url": "https://www.linkedin.com/in/padamkataria"}'
 ```
 
 ---
