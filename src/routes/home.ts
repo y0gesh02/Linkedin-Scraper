@@ -23,11 +23,10 @@ const HOME_PAGE = `<!doctype html>
 </head>
 <body>
   <h1>LinkedIn Profile API</h1>
-  <p class="sub">Test console for <code>POST /api/v1/profile</code>. Full spec at <a href="/docs/">/docs</a>.</p>
+  <p class="sub">Test console for <code>POST /api/v1/profile</code>.</p>
 
   <label for="apiKey">X-API-Key</label>
-  <input type="password" id="apiKey" placeholder="API key" autocomplete="off" />
-
+  <input type="password" id="apiKey" placeholder="API key not required at this time" autocomplete="off" />
   <label for="url">LinkedIn profile URL</label>
   <input type="text" id="url" placeholder="https://www.linkedin.com/in/williamhgates" autocomplete="off" />
 
