@@ -17,17 +17,23 @@ export class InvalidProfileUrlError extends AppError {
 }
 
 export class ProfileNotFoundError extends AppError {
-  constructor(vanity: string) {
-    super("PROFILE_NOT_FOUND", `No LinkedIn profile found for '${vanity}'`, 404);
+  constructor(vanity: string, detail?: string) {
+    super(
+      "PROFILE_NOT_FOUND",
+      `Unable to get LinkedIn profile: no profile found for '${vanity}'`,
+      404,
+      detail,
+    );
   }
 }
 
 export class ProfileNotAccessibleError extends AppError {
-  constructor(vanity: string) {
+  constructor(vanity: string, detail?: string) {
     super(
       "PROFILE_NOT_ACCESSIBLE",
-      `Profile '${vanity}' is not accessible to the authenticated account`,
+      `Unable to get LinkedIn profile: profile '${vanity}' is private, out of network, or inaccessible`,
       403,
+      detail,
     );
   }
 }

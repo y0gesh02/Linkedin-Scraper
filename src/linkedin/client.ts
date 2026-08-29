@@ -134,11 +134,15 @@ export class VoyagerClient {
           "Redirected to authwall",
         );
       }
+      // LinkedIn sometimes redirects back to the same URL or to an unexpected
+      // location — most commonly a sign of an expired or malformed session.
+      // Treat it like a blocked/unavailable request rather than surfacing a
+      // raw internal URL in the error response.
       throw new AbortError(
-        new AppError(
-          "UNEXPECTED_REDIRECT",
-          `Unexpected redirect to '${location}'`,
-          502,
+        new LinkedInBlockedError(
+          "Unable to get LinkedIn profile — LinkedIn redirected the request unexpectedly. " +
+            "This usually means your session cookie is expired or invalid. " +
+            "Please refresh your LI_AT and JSESSIONID cookies.",
         ),
       );
     }
@@ -152,13 +156,6 @@ export class VoyagerClient {
     }
 
     if (status === 403) {
-      if (!isRetryAfterReauth) {
-        return this.handleSessionExpired(
-          path,
-          isRetryAfterReauth,
-          "403 Forbidden",
-        );
-      }
       throw new AbortError(new ProfileNotAccessibleError(path));
     }
 
