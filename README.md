@@ -98,6 +98,13 @@ curl -X POST "http://localhost:4321/api/v1/profile" \
   -d '{"url": "https://www.linkedin.com/in/padamkataria"}'
 ```
 
+Note: Use the API below to retrieve cached data.
+```bash
+curl -X POST "https://linkedin-scraper-9few.onrender.com/api/v1/profile" \
+  -H "Content-Type: application/json" \
+  -H "X-API-Key: my-secret-key" \
+  -d '{"url": "https://www.linkedin.com/in/padamkataria"}'
+```
 ---
 
 ## ⚙️ Configuration (`.env`)
